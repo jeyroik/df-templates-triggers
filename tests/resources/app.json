@@ -1,0 +1,69 @@
+{
+    "name": "test",
+    "title": "test title",
+    "description": "test description",
+    "avatar": "",
+    "package": "",
+    "resolver": "\\deflou\\components\\resolvers\\ResolverHttp",
+    "state": "accepted",
+    "version": "1.0.0",
+    "vendor": {
+        "name": "vendor1"
+    },
+    "options": {
+        "operation__base_url": {
+            "name": "operation__base_url",
+            "default": "http://localhost"
+        },
+        "operation__method": {
+            "name": "operation__method",
+            "default": "post"
+        },
+        "test_operation__url": {
+            "name": "test_operation__url",
+            "default": "/operation/path?with=param&or=without"
+        },
+        "test_operation__method": {
+            "name": "test_operation__method",
+            "default": "get"
+        },
+        "test_operation2__url": {
+            "name": "test_operation__url",
+            "default": "/operation2"
+        }
+    },
+    "events": {
+        "test_event": {
+            "name": "test_event",
+            "title": "Test event",
+            "description": "This is test event",
+            "params": {
+                "some": {
+                    "name": "some",
+                    "title": "Some",
+                    "description": "Some param"
+                }
+            }
+        }
+    },
+    "operations": {
+        "test_operation": {
+            "name": "test_operation",
+            "title": "Test operation",
+            "description": "This is test operation",
+            "params": {
+                "some": {
+                    "name": "some",
+                    "title": "Some",
+                    "description": "Some param"
+                }
+            }
+        },
+        "test_operation2": {
+            "name": "test_operation2",
+            "params": {
+
+            }
+        }
+    }
+}
