@@ -1,6 +1,6 @@
 ![tests](https://github.com/jeyroik/df-templates-triggers/workflows/PHP%20Composer/badge.svg?branch=master&event=push)
 ![codecov.io](https://codecov.io/gh/jeyroik/df-templates-triggers/coverage.svg?branch=master)
-
+<a href="https://codeclimate.com/github/jeyroik/df-templates-triggers/maintainability"><img src="https://api.codeclimate.com/v1/badges/c44744aeb0f3644d52ac/maintainability" /></a>
 [![Latest Stable Version](https://poser.pugx.org/jeyroik/df-templates-triggers/v)](//packagist.org/packages/jeyroik/df-templates-triggers)
 [![Total Downloads](https://poser.pugx.org/jeyroik/df-templates-triggers/downloads)](//packagist.org/packages/jeyroik/df-templates-triggers)
 [![Dependents](https://poser.pugx.org/jeyroik/df-template-triggerss/dependents)](//packagist.org/packages/jeyroik/df-templates-triggers)
